@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+.avatar{
+    width: 165px;
+    height: 165px;
+}
+footer{
+    height: 352px;
+    width: 1520px;
+    color: #fff;
+    font-family: 'Play', sans-serif;
+    background-color: #2f2f2f;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 200px;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1520px;
+    height: 320px;
+    background-color: #eccfff;
+    font-family: 'Play', sans-serif;
+}
+.logo{
+    text-align: center;
+    padding-top: 25px;
+}
+nav{
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #820ad1;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+nav ul li a:hover{
+    background-color: #820ad1;
+    color: white;
+}
+hr{
+    height: 3px;
+    border-width: 0;
+    background: transparent;
+}
+.linha-elegante{
+    margin-left: 10%;
+    height: 1px;
+    width: 80%;
+    background-color: #820ad1;
+    display: flex;
+     margin-top: 20px;
+}
+.bodysop{
+    width: 1520px;
+    height: 3600px;
+    background: linear-gradient(to bottom, #ECCFFF, #FFFFFF);
+    /* Adicione outros estilos conforme necessário */
+    margin: 0; /* Remova margens para evitar espaços extras */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudosop{
+    background-color: #fff;
+    width: 980px;
+    height: 3600px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+.conteudosop img{
+    width: 900px;
+    height: 450px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.conteudosop h1, h2{
+    font-family: 'Play', sans-serif;
+}

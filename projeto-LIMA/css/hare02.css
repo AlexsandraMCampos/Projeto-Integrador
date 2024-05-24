@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 1520px;
+  height: 320px;
+  background-color: #eccfff;
+  font-family: "Play", sans-serif;
+}
+.logo {
+  text-align: center;
+  padding-top: 25px;
+}
+nav {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #820ad1;
+  border-radius: 30px;
+  transition: 0.6s;
+}
+nav ul li a:hover {
+  background-color: #820ad1;
+  color: white;
+}
+hr {
+  height: 3px;
+  border-width: 0;
+  background: transparent;
+}
+.linha-elegante {
+  margin-left: 10%;
+  height: 1px;
+  width: 80%;
+  background-color: #820ad1;
+  display: flex;
+  margin-top: 20px;
+}
+
+body {
+  font-family: "Play", sans-serif;
+  width: 1200px;
+  height: 100%;
+  margin: 0;
+  background-color: #eccfff;
+
+  align-items: center;
+}
+
+.container_HARE {
+  background: linear-gradient(
+    180deg,
+    rgba(236, 207, 255, 0.73) 0%,
+    rgba(255, 255, 255, 0.73) 100%
+  );
+  width: 989px;
+  height: 2900px;
+  margin: 87px 87px 87px 250px;
+}
+.titulo {
+  font-family: "Play", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #820ad1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 70px;
+  padding: 50px;
+}
+
+.redes {
+  font-family: "Play", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+.redes img {
+  width: 886px;
+  height: 275px;
+}
+.redes ul {
+  font-size: 48px;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.titulo_software {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+.software img {
+  width: 105px;
+  height: 80px;
+  align-items: left;
+  margin: 20px;
+}
+
+.conteudo_software {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 20px;
+  grid-column-gap: 0px;
+  width: 100px;
+  align-items: left;
+}
+
+.conteudo_software_imagem {
+  display: grid;
+  grid-column: 1;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  gap: 15px;
+}
+
+.conteudo_software_texto {
+  display: grid;
+  grid-column: 2;
+  font-size: 48px;
+  font-family: bold;
+  margin-left: 20px;
+  margin-top: 50px;
+  justify-content: left;
+  padding: 20px;
+  line-height: 32px;
+}
+
+.titulo_hardware {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+.hardware img {
+  width: 105px;
+  height: 80px;
+}
+
+.conteudo_hardware {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: left;
+}
+
+.conteudo_hardware_imagens {
+  display: grid;
+  align-items: left;
+  margin-left: 20px;
+  grid-column: 1;
+  padding: 25px;
+  margin-top: 50px;
+  gap: 65px;
+}
+
+.conteudo_hardware_texto {
+  display: grid;
+  align-items: left;
+  grid-column: 2;
+  line-height: 50px;
+  font-size: 48px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.avatar {
+  width: 165px;
+  height: 165px;
+}
+
+footer {
+  height: 352px;
+  width: 1520px;
+  color: #fff;
+  font-family: "Play", sans-serif;
+  background-color: #2f2f2f;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 48px;
+}

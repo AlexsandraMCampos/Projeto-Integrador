@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+/* header */
+
+header {
+  width: 1520px;
+  height: 320px;
+  background-color: #eccfff;
+  font-family: "Play", sans-serif;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 25px;
+}
+
+nav {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #820ad1;
+  border-radius: 30px;
+  transition: 0.6s;
+}
+
+nav ul li a:hover {
+  background-color: #820ad1;
+  color: white;
+}
+
+hr {
+  height: 3px;
+  border-width: 0;
+  background: transparent;
+}
+
+.linha-elegante {
+  margin-left: 10%;
+  height: 1px;
+  width: 80%;
+  background-color: #820ad1;
+  display: flex;
+  margin-top: 20px;
+}
+
+/* header */
+
+#conteudo {
+  background-color: #ffffff;
+  width: 990px;
+  height: 1900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  margin-top: 1000px;
+}
+
+#body {
+  margin: 0;
+  background-image: linear-gradient(180deg, #eccfff, #fff);
+  width: 1200px;
+  height: 2594px;
+}
+
+#LIMA{
+  margin-left: 45%;
+
+}
+
+.titulo {
+  font-family: "play";
+  font-size: 48px;
+  color: #820ad1;
+  font-weight: bold;
+  padding-top: 10px;
+  
+}
+
+.texto {
+  font-family: "roboto";
+  font-size: 48px;
+  text-align: justify;
+}
+/*texto objetivo LIMA*/
+#texto-lima {
+  padding: 0px 41px 120px 41px;
+}
+/*texto objetivo SOP*/
+#texto-sop {
+  padding: 0px 41px 148px 41px;
+}
+
+.botao {
+  width: 715px;
+  height: 90px;
+  background-color: #820ad1;
+  font-size: 48px;
+  font-family: "play";
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  margin: -30px 135px 95px 135px;
+}
+
+#imagem {
+  width: 905px;
+  height: 570px;
+  border-radius: 10px;
+  padding: 0px 40px 90px 40px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 200px 65px;
+}
+
+.avatar {
+  width: 165px;
+  height: 165px;
+}
+
+footer {
+  height: 352px;
+  width: 1520px;
+  color: #fff;
+  font-family: "Play", sans-serif;
+  background-color: #2f2f2f;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 2100px 0px 0px 0px;
+  margin-left: 0px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 200px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
